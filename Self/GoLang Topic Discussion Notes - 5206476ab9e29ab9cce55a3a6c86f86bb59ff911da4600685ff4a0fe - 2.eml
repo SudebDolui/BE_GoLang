@@ -1,0 +1,883 @@
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html data-page="2"
+        data-canvas="1"
+        data-site="/personal/sudebd_in_mouritech_com"
+        data-list="19:meeting_NjNlM2Q3MWMtMWRmZC00MmY1LTg5NjgtZWI2OTE0ZWUyZGY1@thread.v2_wiki"
+        data-tabId="com.microsoft.teamspace.tab.wiki"
+        data-slug="19:meeting_NjNlM2Q3MWMtMWRmZC00MmY1LTg5NjgtZWI2OTE0ZWUyZGY1@thread.v2"
+        data-threadId="undefined"<body><h3 class="wiki-mht-note">This page is automatically updated from the Wiki in Microsoft Teams - any changes made here will be overwritten. To edit this page, open it in Microsoft Teams.</h3>
+<h1 id="wiki-mht-page-title-2">GoLang Topic Discussion Notes</h1>
+<h3 id="wiki-mht-section-title-25">Resources Links:-</h3>
+<p id="wiki-mht-section-content-25"><div itemprop="copy-paste-block">
+<div itemprop="copy-paste-block" style="font-size:14px;">1. Hitesh Chowdary(YouTube Videos):</div>
+
+<div itemprop="copy-paste-block" style="font-size:14px;">( <a href="https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa" rel="noreferrer noopener" style="font-size:14px;" target="_blank" title="https://youtube.com/playlist?list=plrav69ds1uwqgdqobymzwkjzuhcaonbpa">https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa</a> <span style="font-size:14px;">)</span></div>
+
+<div itemprop="copy-paste-block" style="font-size:14px;"> </div>
+
+<div itemprop="copy-paste-block" style="font-size:14px;"><span style="font-size:14px;">2. W3SCHOOLS:</span></div>
+
+<div itemprop="copy-paste-block" style="font-size:14px;"><span style="font-size:14px;">( </span><a href="https://www.w3schools.com/go/" rel="noreferrer noopener" style="font-size:14px;" target="_blank" title="https://www.w3schools.com/go/">https://www.w3schools.com/go/</a> <span style="font-size:14px;">)</span></div>
+
+<div itemprop="copy-paste-block" style="font-size:14px;"><span><span><span><span style="font-size:14px;"></span></span></span></span>
+
+<p> </p>
+
+<p><span><span><span><span style="font-size:14px;"><span><span style="font-size:14px;">3.TUTORIALSPOINT:</span></span></span></span></span></span><span><span><span><span style="font-size:14px;"><span><span style="font-size:14px;"> </span></span></span></span></span></span></p>
+
+<p><span><span><span><span style="font-size:14px;"><span><span style="font-size:14px;">( </span><a href="https://www.tutorialspoint.com/go/index.htm" rel="noreferrer noopener" target="_blank" title="https://www.tutorialspoint.com/go/index.htm">https://www.tutorialspoint.com/go/index.htm</a> <span style="font-size:14px;">)</span></span></span></span></span></span></p>
+
+<p><span style="font-size:xx-small;"></span><span style="font-size:inherit;"></span> </p>
+
+<p><span style="font-size:14px;">4. JAVATPOINT: </span></p>
+
+<p><span style="font-size:14px;"></span><span style="font-size:14px;">( </span><a href="https://www.javatpoint.com/go-tutorial" rel="noreferrer noopener" style="font-size:14px;" target="_blank" title="https://www.javatpoint.com/go-tutorial">https://www.javatpoint.com/go-tutorial</a> <span style="font-size:14px;">)</span></p>
+<span><span><span><span style="font-size:14px;"></span></span></span></span>
+
+<p> </p>
+
+<p><span style="font-size:14px;">5. Golang Documentation:</span></p>
+
+<p><span style="font-size:14px;">( </span><a href="https://go.dev/ref/spec#Introduction" rel="noreferrer noopener" style="font-size:14px;" target="_blank" title="https://go.dev/ref/spec#introduction">https://go.dev/ref/spec#Introduction</a><span style="font-size:14px;"> )</span></p>
+
+<p> </p>
+
+<p><span style="font-size:14px;">6. Quick Reference Book:</span></p>
+
+<p><span style="font-size:14px;">( </span><a href="https://www.golang-book.com/books/intro" rel="noreferrer noopener" style="font-size:14px;" target="_blank" title="https://www.golang-book.com/books/intro">https://www.golang-book.com/books/intro</a><span style="font-size:14px;"> )</span></p>
+</div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-3">𝗜͟𝗻͟𝘁͟𝗿͟𝗼͟𝗱͟𝘂͟𝗰͟𝘁͟𝗶͟𝗼͟𝗻:</h3>
+<p id="wiki-mht-section-content-3"><ul>
+	<li>Go is a general-purpose language designed with systems programming in mind.</li>
+	<li>It's project was started in 2007 and was released in 2009.</li>
+	<li>Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.</li>
+	<li>Go is syntactically similar to C, but with memory safety, garbage collection, structural typing and CSP-style concurrency.</li>
+	<li>The language is often referred to as Golang because of its former domain name, golang.org, but the proper name is Go.</li>
+	<li>It is a statically-typed language having syntax similar to that of C.</li>
+	<li>It provides garbage collection, type safety, dynamic-typing capability, many advanced built-in types such as variable length arrays and key-value maps.</li>
+	<li>It also provides a rich standard library.</li>
+	<li>It is strongly and statically typed, provides inbuilt support for garbage collection, and supports concurrent programming.</li>
+	<li>Programs are constructed using packages, for efficient management of dependencies.</li>
+	<li>Go programming implementations use a traditional compile and link model to generate executable binaries.</li>
+	<li>The Go programming language was launched in November 2009 and is used in some of the Google's production systems.</li>
+</ul>
+</p>
+<h3 id="wiki-mht-section-title-4">F͟e͟a͟t͟u͟r͟e͟s o͟f G͟o P͟r͟o͟g͟r͟a͟m͟m͟i͟n͟g:</h3>
+<p id="wiki-mht-section-content-4"><div itemprop="copy-paste-block">
+<div>The most important features of Go programming are listed below:</div>
+
+<div>
+<div> </div>
+
+<ol>
+	<li>Support for environment adopting patterns similar to dynamic languages. For example, type inference (x := 0 is valid declaration of a variable x of type int).</li>
+	<li>Compilation time is fast.</li>
+	<li>Inbuilt concurrency support: lightweight processes (via go routines), channels, select statement.</li>
+	<li>Go programs are simple, concise, and safe.</li>
+	<li>Support for Interfaces and Type embedding.</li>
+	<li>Production of statically linked native binaries without external dependencies,</li>
+	<li>Static typing and run-time efficiency (like C).</li>
+	<li>Readability and usability (like Python or JavaScript).</li>
+	<li>High-performance networking and multiprocessing.</li>
+</ol>
+</div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-5">F͟e͟a͟t͟u͟r͟e͟s E͟x͟c͟l͟u͟d͟e͟d I͟n͟t͟e͟n͟t͟i͟o͟n͟a͟l͟l͟y:</h3>
+<p id="wiki-mht-section-content-5"><div itemprop="copy-paste-block">
+<div style="font-size:14px;">
+<div>To keep the language simple and concise, the following features commonly available in other similar languages are omitted in Go −</div>
+
+<div>
+<div> </div>
+
+<div>
+<ol>
+	<li>Support for type inheritance.</li>
+	<li>Support for method or operator overloading.</li>
+	<li>Support for circular dependencies among packages.</li>
+	<li>Support for pointer arithmetic.</li>
+	<li>Support for assertions.</li>
+	<li>Support for generic programming.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-6">What is Go?</h3>
+<p id="wiki-mht-section-content-6"><ol>
+	<li>Go is a cross-platform, open source programming language.</li>
+	<li>Go can be used to create high-performance applications.</li>
+	<li>Go is a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.</li>
+	<li>Go was developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson in 2007.</li>
+	<li>Go's syntax is similar to C++.</li>
+</ol>
+</p>
+<h3 id="wiki-mht-section-title-8">What is Go Used For?</h3>
+<p id="wiki-mht-section-content-8"><ol>
+	<li>Web development (server-side).</li>
+	<li>Developing network-based programs.</li>
+	<li>Developing cross-platform enterprise applications.</li>
+	<li>Cloud-native development.</li>
+</ol>
+</p>
+<h3 id="wiki-mht-section-title-9">Why Use Go?</h3>
+<p id="wiki-mht-section-content-9"><ol>
+	<li>Go is fun and easy to learn.</li>
+	<li>Go has fast run time and compilation time.</li>
+	<li>Go supports concurrency.</li>
+	<li>Go has memory management.</li>
+	<li>Go works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.).        </li>
+</ol>
+</p>
+<h3 id="wiki-mht-section-title-10">Go Compared to Python and C++</h3>
+<p id="wiki-mht-section-content-10"><div itemprop="copy-paste-block">
+<div>
+<table class="copy-paste-table" itemprop="copy-paste-table" style="width:100%;">
+	<colgroup>
+		<col style="width:33%;"></col>
+		<col style="width:33%;"></col>
+		<col style="width:33%;"></col>
+	</colgroup>
+	<tbody>
+		<tr>
+			<th>Go</th>
+			<th>Python</th>
+			<th>C++</th>
+		</tr>
+		<tr>
+			<td>Statically typed</td>
+			<td>Dynamically typed</td>
+			<td>Statically typed</td>
+		</tr>
+		<tr>
+			<td>Fast run time</td>
+			<td>Slow run time</td>
+			<td>Fast run time</td>
+		</tr>
+		<tr>
+			<td>Compiled</td>
+			<td>Interpreted</td>
+			<td>Compiled</td>
+		</tr>
+		<tr>
+			<td>Fast compile time</td>
+			<td>Interpreted</td>
+			<td>Slow compile time</td>
+		</tr>
+		<tr>
+			<td>Supports concurrency through goroutines and channel</td>
+			<td>No built-in concurrency mechanism</td>
+			<td>Supports concurrency through threads</td>
+		</tr>
+		<tr>
+			<td>Has automatic garbage collection</td>
+			<td>Has automatic garbage collection</td>
+			<td>Does not have automatic garbage collection</td>
+		</tr>
+		<tr>
+			<td>Does not support classes and objects</td>
+			<td>Has classes and objects</td>
+			<td>Has classes and objects</td>
+		</tr>
+		<tr>
+			<td>Does not support inheritance</td>
+			<td>Supports inheritance</td>
+			<td>
+			<div>Supports inheritance.</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div> </div>
+
+<div>
+<p style="font-size:15px;"><span><strong>Notes:</strong></span></p>
+
+<ul style="font-size:15px;">
+	<li>Compilation time refers to translating the code into an executable program.</li>
+	<li>Concurrency is performing multiple things out-of-order, or at the same time, without affecting the final outcome.</li>
+	<li>Statically typed means that the variable types are known at compile time.</li>
+</ul>
+</div>
+</div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-11">T͟h͟e G͟o C͟o͟m͟p͟i͟l͟e͟r:</h3>
+<p id="wiki-mht-section-content-11"><ul>
+	<li>The source code written in source file is the human readable source for your program.</li>
+	<li>It needs to be compiled and turned into machine language so that your CPU can actually execute the program as per the instructions given.</li>
+	<li>The Go programming language compiler compiles the source code into its final executable program.</li>
+</ul>
+</p>
+<h3 id="wiki-mht-section-title-12">Go - Program Structure:</h3>
+<p id="wiki-mht-section-content-12"><div itemprop="copy-paste-block">
+<p style="font-size:16px;">A Go program basically consists of the following parts −</p>
+
+<ul style="font-size:16px;">
+	<li style="background:;">Package Declaration</li>
+	<li style="background:;">Import Packages</li>
+	<li style="background:;">Functions</li>
+	<li style="background:;">Variables</li>
+	<li style="background:;">Statements and Expressions</li>
+	<li style="background:;">Comments</li>
+</ul>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-13">Go Comments:</h3>
+<p id="wiki-mht-section-content-13"><ul>
+	<li itemprop="copy-paste-block"><span style="font-size:15px;">Single-line comments start with two forward slashes (</span><code style="font-size:15.75px;">//</code><span style="font-size:15px;">).</span></li>
+	<li itemprop="copy-paste-block"><span style="font-size:15px;">Multi-line comments start with </span><code style="font-size:15.75px;">/*</code><span style="font-size:15px;"> and ends with </span><code style="font-size:15.75px;">*/</code><span style="font-size:15px;">.</span></li>
+</ul>
+</p>
+<h3 id="wiki-mht-section-title-14">Data Types in Go:</h3>
+<p id="wiki-mht-section-content-14"><div itemprop="copy-paste-block">
+<table class="copy-paste-table" itemprop="copy-paste-table" style="width:100%;">
+	<colgroup>
+		<col style="width:14.32%;"></col>
+		<col style="width:84.95%;"></col>
+	</colgroup>
+	<tbody>
+		<tr>
+			<th>Sr.No.</th>
+			<th>Types and Description</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>
+			<div><span><b>Boolean types: </b></span></div>
+
+			<div><span></span>                            They are boolean types and consists of the two predefined constants:</div>
+
+			<div>(a) true.</div>
+
+			<div>(b) false.</div>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>
+			<div><span><b>Numeric types: </b></span></div>
+
+			<div><span><b>                           </b></span>They are again arithmetic types and they represents:</div>
+
+			<div>a) Integer types.</div>
+
+			<div>b) Floating point values throughout the program.</div>
+
+			<div>c) Complex Type.</div>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>
+			<div><span><b>String types: </b></span></div>
+
+			<div><span><b>                       </b></span>A string type represents the set of string values. Its value is a sequence of bytes. Strings are immutable types that is once created, it is not possible to change the contents of a string. The predeclared string type is string.</div>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>
+			<div><span><b>Derived types: </b></span></div>
+
+			<div><span><b>                          </b></span>They include:</div>
+
+			<div>(a) Pointer types.</div>
+
+			<div>(b) Array types.</div>
+
+			<div>(c) Structure types.</div>
+
+			<div>(d) Union types.</div>
+
+			<div>(e) Function types.</div>
+
+			<div>(f) Slice types.</div>
+
+			<div>(g) Interface types.</div>
+
+			<div>(h) Map types.</div>
+
+			<div>(i) Channel Types.</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div> </div>
+
+<div><span style="font-size:16px;">Array types and structure types are collectively referred to as </span><span style="font-size:16px;"><b>aggregate types</b></span><span style="font-size:16px;">.</span></div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-15">V͟a͟r͟i͟a͟b͟l͟e D͟e͟c͟l͟a͟r͟a͟t͟i͟o͟n T͟y͟p͟e͟s͟:</h3>
+<p id="wiki-mht-section-content-15"><div>• Type 1: var variableName datatype = value<br />
+• Type 2: var variableName datatype (It only declares the variable and gives that data type default value i.e for numeric = 0, boolean = false, string = &quot;&quot;, pointer = nil)<br />
+• Type 3: var variableName = value (Implicit Type)<br />
+• Type 4: variableName := value (Also called as short Description. It is a type. It can be used only inside a function and can't be declared as a global variable.)</div>
+</p>
+<h3 id="wiki-mht-section-title-16">M͟u͟l͟t͟i͟p͟l͟e v͟a͟r͟i͟a͟b͟l͟e d͟e͟c͟l͟a͟r͟a͟t͟i͟o͟n:</h3>
+<p id="wiki-mht-section-content-16"><div style="font-size:14px;">
+<ol>
+	<li><em><span> var firstValue, secondValue int</span></em></li>
+	<li><em><span>firstValue, secondValue, thirdValue := &quot;Hello&quot;, 2, 2.8564465</span></em><em><span></span></em></li>
+	<li><em><span>var firstValue, secondValue, thirdValue = &quot;Hello&quot;, 2, 2.8564465</span></em></li>
+	<li><span>var</span><span> </span><span>(</span>                                                                                                                                                                    <span>firstValue  </span><em><span>int</span></em>                                                                                                                                              <span>secondValue </span><em><span>int</span></em><span> </span><span>=</span><span> </span><span>1</span>                                                                                                                                    <span>thirdValue  </span><em><span>string</span></em><span> </span><span>=</span><span> </span><span>&quot;</span><span>hello</span><span>&quot;</span>                                                                                                                        <span>)</span></li>
+	<li>var(firstValue int; secondValue int = 1; thirdValue string =&quot;hello)</li>
+</ol>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-19">Initializing Local and Global Variables:</h3>
+<p id="wiki-mht-section-content-19"><div itemprop="copy-paste-block">
+<div style="font-size:23px;"><span style="font-size:inherit;"></span>
+<p style="font-size:16px;">Local and global variables are initialized to their default value, which is 0; while pointers are initialized to nil.</p>
+</div>
+
+<table class="copy-paste-table" itemprop="copy-paste-table" style="width:100%;">
+	<colgroup>
+		<col style="width:50%;"></col>
+		<col style="width:50%;"></col>
+	</colgroup>
+	<tbody>
+		<tr>
+			<th>Data Type</th>
+			<th>Initial Default Value</th>
+		</tr>
+		<tr>
+			<td>int</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>float32</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>pointer</td>
+			<td>nil</td>
+		</tr>
+	</tbody>
+</table>
+
+<div> </div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-17">Constants:</h3>
+<p id="wiki-mht-section-content-17"><div class="copy-paste-block" itemprop="copy-paste-block">
+<ul>
+	<li style="font-size:16px;"><span style="font-size:inherit;">Constants refer to fixed values that the program may not alter during its execution. These fixed values are also called <b>literals</b>.</span></li>
+	<li style="font-size:16px;"><span style="font-size:inherit;">Constants can be of any of the basic data types like <i>an integer constant, a floating constant, a character constant, or a string literal</i>. There are also enumeration constants as well.</span></li>
+	<li style="font-size:16px;"><span style="font-size:inherit;">Constants are treated just like regular variables except that their values cannot be modified after their definition.</span></li>
+</ul>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-18">Scope:</h3>
+<p id="wiki-mht-section-content-18"><div itemprop="copy-paste-block">
+<p style="font-size:16px;">A scope in any programming is a region of the program where a defined variable can exist and beyond that the variable cannot be accessed. There are three places where variables can be declared in Go programming language −</p>
+
+<ul style="font-size:16px;">
+	<li style="background:;">
+	<p style="font-size:16px;">Inside a function or a block (<span><b>local</b></span> variables)</p>
+	</li>
+	<li style="background:;">
+	<p style="font-size:16px;">Outside of all functions (<span><b>global</b></span> variables)</p>
+	</li>
+	<li style="background:;">
+	<p style="font-size:16px;">In the definition of function parameters (<span><b>formal</b></span> parameters).</p>
+	</li>
+</ul>
+
+<p style="font-size:16px;"><span style="font-size:x-large;"><strong>Local Variables</strong></span></p>
+
+<p style="font-size:16px;">Variables that are declared inside a function or a block are called local variables. They can be used only by statements that are inside that function or block of code. Local variables are not known to functions outside their own.</p>
+
+<h2 style="font-size:23px;">Global Variables</h2>
+
+<p style="font-size:16px;">Global variables are defined outside of a function, usually on top of the program. Global variables hold their value throughout the lifetime of the program and they can be accessed inside any of the functions defined for the program.</p>
+
+<p style="font-size:16px;">A global variable can be accessed by any function.</p>
+
+<h2 style="font-size:23px;">Formal Parameters</h2>
+
+<p style="font-size:16px;">Formal parameters are treated as local variables with-in that function and they take preference over the global variables.</p>
+
+<pre style="font-size:15px;">
+<span>package</span><span> main
+
+</span><span>import</span><span> </span><span>&quot;fmt&quot;</span><span>
+ 
+</span><span>/* global variable declaration */</span><span>
+</span><span>var</span><span> a </span><span>int</span><span> </span><span>=</span><span> </span><span>20</span><span>;</span><span>
+ 
+func main</span><span>()</span><span> </span><span>{​​​​​​</span><span>
+   </span><span>/* local variable declaration in main function */</span><span>
+   </span><span>var</span><span> a </span><span>int</span><span> </span><span>=</span><span> </span><span>10</span><span>
+   </span><span>var</span><span> b </span><span>int</span><span> </span><span>=</span><span> </span><span>20</span><span>
+   </span><span>var</span><span> c </span><span>int</span><span> </span><span>=</span><span> </span><span>0</span><span>
+
+   fmt</span><span>.</span><span>Printf</span><span>(</span><span>&quot;value of a in main() = %d\n&quot;</span><span>,</span><span>  a</span><span>);</span><span>
+   c </span><span>=</span><span> sum</span><span>(</span><span> a</span><span>,</span><span> b</span><span>);</span><span>
+   fmt</span><span>.</span><span>Printf</span><span>(</span><span>&quot;value of c in main() = %d\n&quot;</span><span>,</span><span>  c</span><span>);</span><span>
+</span><span>}​​​​​​
+</span><span>
+</span><span>/* function to add two integers */</span><span>
+func sum</span><span>(</span><span>a</span><span>,</span><span> b </span><span>int</span><span>)</span><span> </span><span>int</span><span> </span><span>{​​​​​​</span><span>
+   fmt</span><span>.</span><span>Printf</span><span>(</span><span>&quot;value of a in sum() = %d\n&quot;</span><span>,</span><span>  a</span><span>);</span><span>
+   fmt</span><span>.</span><span>Printf</span><span>(</span><span>&quot;value of b in sum() = %d\n&quot;</span><span>,</span><span>  b</span><span>);</span><span>
+
+   </span><span>return</span><span> a </span><span>+</span><span> b</span><span>;</span><span>
+</span><span>}​​​​​​</span></pre>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-20">Decision Making Structures</h3>
+<p id="wiki-mht-section-content-20"><div class="copy-paste-block" itemprop="copy-paste-block"> 
+<p style="font-size:16px;">Decision making structures require that the programmer specify one or more conditions to be evaluated or tested by the program, along with a statement or statements to be executed if the condition is determined to be true, and optionally, other statements to be executed if the condition is determined to be false.</p>
+
+<p style="font-size:16px;">Following is the general form of a typical decision making structure found in most of the programming languages −</p>
+
+<div><img alt data-ts-imgid="imgfbcdab11c23846099acdff4ce32b9c49" height="250" src="blob:https://teams.microsoft.com/4c095cc7-64bc-4a5d-a7e3-938a54c9e0d4" style="vertical-align:bottom;" width="195.42772861356931" /></div>
+
+<div>
+<p style="font-size:16px;">Go programming language provides the following types of decision making statements. Click the following links to check their detail.</p>
+
+<table class="copy-paste-table" itemprop="copy-paste-table" style="width:100%;">
+	<colgroup>
+		<col style="width:8.24%;"></col>
+		<col style="width:91.42%;"></col>
+	</colgroup>
+	<tbody>
+		<tr>
+			<th>Sr.No</th>
+			<th>Statement &amp; Description</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>
+			<div><strong>if statement</strong>: An <span><b>if statement</b></span> consists of a boolean expression followed by one or more statements.</div>
+
+			<div>
+			<h2 style="font-size:23px;">Syntax:</h2>
+
+			<p style="font-size:16px;">The syntax of an <span><b>if</b></span> statement in Go programming language is −</p>
+
+			<pre style="font-size:15px;">
+if(boolean_expression) {​
+   /* statement(s) will execute if the boolean expression is true */
+}​​​​​​​​
+</pre>
+
+			<div>If <span style="font-size:16px;">the boolean expression evaluates to </span><span style="font-size:16px;"><b>true</b></span><span style="font-size:16px;">, then the block of code inside the if statement is executed. If boolean expression evaluates to </span><span style="font-size:16px;"><b>false</b></span><span style="font-size:16px;">, then the first set of code after the end of the if statement (after the closing curly brace) is executed</span></div>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>
+			<div><strong>if...else statement</strong>: An <span><b>if statement</b></span> can be followed by an optional <span><b>else statement</b></span>, which executes when the boolean expression is false.</div>
+
+			<div>
+			<h2 style="font-size:23px;">Syntax:</h2>
+
+			<p style="font-size:16px;">The syntax of an <span><b>if...else</b></span> statement in Go programming language is −</p>
+
+			<pre style="font-size:15px;">
+if(boolean_expression) {​​​​​​​​​​​​​​​​​​​​
+   /* statement(s) will execute if the boolean expression is true */
+}​​​​​​​​​​​​​​​​​​​​​​​​​​​ else {​​​​​​​​​​​​​​​​​​​​​​​​​​​
+   /* statement(s) will execute if the boolean expression is false */
+}​​​​​​​​​​​​​​​​​​​​​​​​​​​
+</pre>
+
+			<p style="font-size:16px;">If the boolean expression evaluates to <span><b>true</b></span>, then the <span><b>if block</b></span> of code will be executed, otherwise <span><b>else block</b></span> of code is executed.</p>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>
+			<div><strong>nested if statements:</strong> You can use one <span><b>if</b></span> or <span><b>else if</b></span> statement inside another <span><b>if</b></span> or <span><b>else if</b></span> statement(s).</div>
+
+			<div>
+			<p style="font-size:16px;">It is always legal in Go programming to <span><b>nest</b></span> if-else statements, which means you can use one if or else if statement inside another if or else if statement(s).</p>
+
+			<h2 style="font-size:23px;">Syntax:</h2>
+
+			<p style="font-size:16px;">The syntax for a <span><b>nested if</b></span> statement is as follows −</p>
+
+			<pre style="font-size:15px;">
+if( boolean_expression 1) {​​​​​​​​​​​​​​​​​​​​​​​​
+   /* Executes when the boolean expression 1 is true */
+   if(boolean_expression 2) {​​​​​​​​​​​​​​​​​​​​​​​​
+      /* Executes when the boolean expression 2 is true */
+   }​​​​​​​​​​​​​​​​​​​​​​​​
+}​​​​​​​​​​​​​​​​​​​​​​​​
+</pre>
+
+			<p style="font-size:16px;">You can nest <span><b>else if...else</b></span> in the similar way as you have nested <i>if</i> statement.</p>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>
+			<div><strong>switch statement</strong>: A <span><b>switch</b></span> statement allows a variable to be tested for equality against a list of values.Each value is called a case, and the variable being switched on is checked for each <span><b>switch case</b></span>.</div>
+
+			<div>
+			<p style="font-size:16px;">In Go programming, switch statements are of two types −</p>
+
+			<ul style="font-size:16px;">
+				<li style="background:;">
+				<p style="font-size:16px;"><span><b>Expression Switch</b></span> − In expression switch, a case contains expressions, which is compared against the value of the switch expression.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;"><span><b>Type Switch</b></span> − In type switch, a case contain type which is compared against the type of a specially annotated switch expression.</p>
+				</li>
+			</ul>
+
+			<h2 style="font-size:23px;">Expression Switch:</h2>
+
+			<p style="font-size:16px;">The syntax for <span><b>expression switch</b></span> statement in Go programming language is as follows −</p>
+
+			<pre style="font-size:15px;">
+switch(boolean-expression or integral type){​​​​​​​​​​​​​​​​​​
+   case boolean-expression or integral type :
+      statement(s);      
+   case boolean-expression or integral type :
+      statement(s); 
+   
+   /* you can have any number of case statements */
+   default : /* Optional */
+      statement(s);
+}​​​​​​​​​​​​​​​​​​
+</pre>
+
+			<p style="font-size:16px;">The following rules apply to a <span><b>switch</b></span> statement −</p>
+
+			<ul style="font-size:16px;">
+				<li style="background:;">
+				<p style="font-size:16px;">The <span><b>expression</b></span> used in a <span><b>switch</b></span> statement must have an integral or boolean expression, or be of a class type in which the class has a single conversion function to an integral or boolean value. If the expression is not passed then the default value is true.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">You can have any number of case statements within a switch. Each case is followed by the value to be compared to and a colon.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">The <span><b>constant-expression</b></span> for a case must be the same data type as the variable in the switch, and it must be a constant or a literal.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">When the variable being switched on is equal to a case, the statements following that case will execute. No <span><b>break</b></span> is needed in the case statement.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">A <span><b>switch</b></span> statement can have an optional <span><b>default</b></span> case, which must appear at the end of the switch. The default case can be used for performing a task when none of the cases is true. No <span><b>break</b></span> is needed in the default case.</p>
+				</li>
+			</ul>
+
+			<h2 style="font-size:23px;">Type Switch:</h2>
+
+			<p style="font-size:16px;">The syntax for a <span><b>type switch</b></span> statement in Go programming is as follows −</p>
+
+			<pre style="font-size:15px;">
+switch x.(type){​​​​​​​​​​​​​​​
+   case type:
+      statement(s);      
+   case type:
+      statement(s); 
+   /* you can have any number of case statements */
+   default: /* Optional */
+      statement(s);
+}​​​​​​​​​​​​​​​
+</pre>
+
+			<p style="font-size:16px;">The following rules apply to a <span><b>switch</b></span> statement −</p>
+
+			<ul style="font-size:16px;">
+				<li style="background:;">
+				<p style="font-size:16px;">The <span><b>expression</b></span> used in a <span><b>switch</b></span> statement must have an variable of interface{​​​​​​​​​​​​​​​}​​​​​​​​​​​​​​​ type.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">You can have any number of case statements within a switch. Each case is followed by the value to be compared to and a colon.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">The type for a case must be the same data type as the variable in the switch, and it must be a valid data type.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">When the variable being switched on is equal to a case, the statements following that case will execute. No break is needed in the case statement.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">A switch statement can have an optional default case, which must appear at the end of the switch. The default case can be used for performing a task when none of the cases is true. No break is needed in the default case.</p>
+				</li>
+			</ul>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>
+			<div><strong>select statement:</strong> A <span><b>select</b></span> statement is similar to <span><b>switch</b></span> statement with difference that case statements refers to channel communications.</div>
+
+			<div>
+			<p style="font-size:16px;">The syntax for a <span><b>select</b></span> statement in Go programming language is as follows −</p>
+
+			<pre style="font-size:15px;">
+select {​​​​​​​​​​​​
+   case communication clause  :
+      statement(s);      
+   case communication clause  :
+      statement(s); 
+   /* you can have any number of case statements */
+   default : /* Optional */
+      statement(s);
+}​​​​​​​​​​​​
+</pre>
+
+			<p style="font-size:16px;">The following rules apply to a <span><b>select</b></span> statement −</p>
+
+			<ul style="font-size:16px;">
+				<li style="background:;">
+				<p style="font-size:16px;">You can have any number of case statements within a select. Each case is followed by the value to be compared to and a colon.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">The <span><b>type</b></span> for a case must be the a communication channel operation.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">When the channel operation occured the statements following that case will execute. No <span><b>break</b></span> is needed in the case statement.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">A <span><b>select</b></span> statement can have an optional <span><b>default</b></span> case, which must appear at the end of the select. The default case can be used for performing a task when none of the cases is true. No <span><b>break</b></span> is needed in the default case.</p>
+				</li>
+			</ul>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div> </div>
+</div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-21">Loops:</h3>
+<p id="wiki-mht-section-content-21"><div class="copy-paste-block" itemprop="copy-paste-block">
+<p style="font-size:16px;">A loop statement allows us to execute a statement or group of statements multiple times and following is the general form of a loop statement in most of the programming languages −</p>
+<img alt data-ts-imgid="imgd3555d673edb4e20929102b2b3737e5b" height="250" src="blob:https://teams.microsoft.com/fe5d4774-abf6-4691-a64a-6b7f93aa0901" style="vertical-align:bottom;" width="218.39080459770116" />
+<p style="font-size:16px;">Go programming language provides the following types of loop to handle looping requirements.</p>
+
+<table class="copy-paste-table" itemprop="copy-paste-table" style="width:100%;">
+	<colgroup>
+		<col style="width:7.66%;"></col>
+		<col style="width:92%;"></col>
+	</colgroup>
+	<tbody>
+		<tr>
+			<th>Sr.No</th>
+			<th>Loop Type &amp; Description</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>
+			<div><span style="font-size:inherit;"><strong>for loop</strong></span>: It executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.</div>
+
+			<div> 
+			<p style="font-size:16px;">A <span><b>for</b></span> loop is a repetition control structure. It allows you to write a loop that needs to execute a specific number of times.</p>
+
+			<h2 style="font-size:23px;">Syntax</h2>
+
+			<p style="font-size:16px;">The syntax of <span><b>for</b></span> loop in Go programming language is −</p>
+
+			<pre style="font-size:15px;">
+for [condition |  ( init; condition; increment ) | Range] {​​
+   statement(s);
+}​​​​​​​​​
+</pre>
+
+			<p style="font-size:16px;">The flow of control in a <span><b>for</b></span> loop is a follows −</p>
+
+			<ul style="font-size:16px;">
+				<li style="background:;">
+				<p style="font-size:16px;">If a <span><b>condition</b></span> is available, then for loop executes as long as condition is true.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">If a <span><b>for</b></span> clause that is <span><b>( init; condition; increment )</b></span> is present then −</p>
+
+				<ul>
+					<li style="background:;">
+					<p style="font-size:16px;">The <span><b>init</b></span> step is executed first, and only once. This step allows you to declare and initialize any loop control variables. You are not required to put a statement here, as long as a semicolon appears.</p>
+					</li>
+					<li style="background:;">
+					<p style="font-size:16px;">Next, the <span><b>condition</b></span> is evaluated. If it is true, the body of the loop is executed. If it is false, the body of the loop does not execute and the flow of control jumps to the next statement just after the <span><b>for</b></span> loop.</p>
+					</li>
+					<li style="background:;">
+					<p style="font-size:16px;">After the body of the for loop executes, the flow of control jumps back up to the <span><b>increment</b></span> statement. This statement allows you to update any loop control variables. This statement can be left blank, as long as a semicolon appears after the condition.</p>
+					</li>
+					<li style="background:;">
+					<p style="font-size:16px;">The condition is now evaluated again. If it is true, the loop executes and the process repeats itself (body of loop, then increment step, and then again the condition). After the condition becomes false, the for loop terminates.</p>
+					</li>
+				</ul>
+
+				<p style="font-size:16px;"> </p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">If <span><b>range</b></span> is available, then the for loop executes for each item in the range.</p>
+				</li>
+			</ul>
+
+			<h2 style="font-size:23px;">Flow Diagram</h2>
+			<img alt data-ts-imgid="imgd3043e83d43942d99f4c4f1fca8426db" height="250" src="blob:https://teams.microsoft.com/e7d60e20-0ae6-4802-87bb-18fd51891666" style="vertical-align:bottom;" width="177.90262172284645" /></div>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>
+			<div><strong>nested loops:</strong> These are one or multiple loops inside any for loop.</div>
+
+			<div>
+			<p style="font-size:16px;">Go programming language allows to use one loop inside another loop.</p>
+
+			<h2 style="font-size:23px;">Syntax</h2>
+
+			<p style="font-size:16px;">The syntax for a <span><b>nested for loop</b></span> statement in Go is as follows −</p>
+
+			<pre style="font-size:15px;">
+for [condition |  ( init; condition; increment ) | Range] {​​​
+   for [condition |  ( init; condition; increment ) | Range] {​​​
+      statement(s);
+   }​​​
+   statement(s);
+}​​​</pre>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div> </div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-22">Loop Control Statements:</h3>
+<p id="wiki-mht-section-content-22"><div itemprop="copy-paste-block">
+<p style="font-size:16px;">Loop control statements change an execution from its normal sequence. When an execution leaves its scope, all automatic objects that were created in that scope are destroyed.</p>
+
+<p style="font-size:16px;">Go supports the following control statements −</p>
+
+<table class="copy-paste-table" itemprop="copy-paste-table" style="width:100%;">
+	<colgroup>
+		<col style="width:8.24%;"></col>
+		<col style="width:91.42%;"></col>
+	</colgroup>
+	<tbody>
+		<tr>
+			<th>Sr.No</th>
+			<th>Control Statement &amp; Description</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>
+			<div><strong>break statement: </strong>It terminates a <span><b>for loop</b></span> or <span><b>switch</b></span> statement and transfers execution to the statement immediately following the for loop or switch.</div>
+
+			<div> 
+			<p style="font-size:16px;">The <span><b>break</b></span> statement in Go programming language has the following two usages −</p>
+
+			<ul style="font-size:16px;">
+				<li style="background:;">
+				<p style="font-size:16px;">When a <span><b>break</b></span> statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next statement following the loop.</p>
+				</li>
+				<li style="background:;">
+				<p style="font-size:16px;">It can be used to terminate a case in a <span><b>switch</b></span> statement.</p>
+				</li>
+			</ul>
+
+			<p style="font-size:16px;">If you are using nested loops, the break statement will stop the execution of the innermost loop and start executing the next line of code after the block.</p>
+
+			<h2 style="font-size:23px;">Syntax</h2>
+
+			<p style="font-size:16px;">The syntax for a <span><b>break</b></span> statement in Go is as follows −</p>
+
+			<pre style="font-size:15px;">
+break;
+</pre>
+
+			<h2 style="font-size:23px;">Flow Diagram</h2>
+			<img alt data-ts-imgid="img4bdd9665f3fc42679d2da2a12c3d2b00" height="221" src="blob:https://teams.microsoft.com/1b059027-9283-424f-aa7a-651c33a0b8fe" style="vertical-align:bottom;" width="190" /></div>
+			</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>
+			<div><strong>continue statement: </strong>It causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.</div>
+
+			<div> 
+			<p style="font-size:16px;">The <span><b>continue</b></span> statement in Go programming language works somewhat like a <span><b>break</b></span> statement. Instead of forcing termination, a <span><b>continue</b></span> statement forces the next iteration of the loop to take place, skipping any code in between.</p>
+
+			<p style="font-size:16px;">In case of the <span><b>for</b></span> loop, <span><b>continue</b></span> statement causes the conditional test and increment portions of the loop to execute.</p>
+
+			<h2 style="font-size:23px;">Syntax</h2>
+
+			<p style="font-size:16px;">The syntax for a <span><b>continue </b></span>statement in Go is as follows −</p>
+
+			<pre style="font-size:15px;">
+continue;
+</pre>
+
+			<h2 style="font-size:23px;">Flow Diagram</h2>
+			<img alt data-ts-imgid="img5547e15f54af40148932932da10dd3a7" height="221" src="blob:https://teams.microsoft.com/da89578d-3646-42d6-9094-40b3fe6cb506" style="vertical-align:bottom;" width="190" /></div>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>
+			<div><strong>goto statement: </strong>It transfers control to the labeled statement.</div>
+
+			<div> 
+			<p style="font-size:16px;">A <span><b>goto</b></span> statement in Go programming language provides an unconditional jump from the goto to a labeled statement in the same function.</p>
+
+			<p style="font-size:16px;"><span><b>Note</b></span> − Use of <span><b>goto</b></span> statement is highly discouraged in any programming language because it becomes difficult to trace the control flow of a program, making the program difficult to understand and hard to modify. Any program that uses a goto can be rewritten using some other construct.</p>
+
+			<h2 style="font-size:23px;">Syntax</h2>
+
+			<p style="font-size:16px;">The syntax for a <span><b>goto</b></span> statement in Go is as follows −</p>
+
+			<pre style="font-size:15px;">
+goto label;
+..
+.
+label: statement;
+</pre>
+
+			<p style="font-size:16px;">Here, <span><b>label</b></span> can be any plain text except Go keyword and it can be set anywhere in the Go program above or below to <span><b>goto</b></span> statement.</p>
+
+			<h2 style="font-size:23px;">Flow Diagram</h2>
+			<img alt data-ts-imgid="imgb477d75a0ad249cba2bf0f6d0562c71c" height="226" src="blob:https://teams.microsoft.com/fdfe1a30-e9b2-4ebf-91b5-872d9b668edf" style="vertical-align:bottom;" width="190" /></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div> </div>
+</div>
+</p>
+<h3 id="wiki-mht-section-title-23">Infinite Loop:</h3>
+<p id="wiki-mht-section-content-23"><div class="copy-paste-block" itemprop="copy-paste-block">
+<p style="font-size:16px;">A loop becomes an infinite loop if its condition never becomes false. The for loop is traditionally used for this purpose. Since none of the three expressions that form the for loop are required, you can make an endless loop by leaving the conditional expression empty or by passing true to it.</p>
+
+<pre style="font-size:15px;">
+<span>package</span><span> main
+
+</span><span>import</span><span> </span><span>&quot;fmt&quot;</span><span>
+
+func main</span><span>()</span><span> </span><span>{​​​</span><span>
+   </span><span>for</span><span> </span><span>true</span><span>  </span><span>{​​​</span><span>
+       fmt</span><span>.</span><span>Printf</span><span>(</span><span>&quot;This loop will run forever.\n&quot;</span><span>);</span><span>
+   </span><span>}​​​</span><span>
+</span><span>}​​​</span></pre>
+
+<p style="font-size:16px;">When the conditional expression is absent, it is assumed to be true. You may have an initialization and increment expression, but C programmers more commonly use the for(;;) construct to signify an infinite loop.</p>
+
+<p style="font-size:16px;"><span><b>Note:</b></span>  You can terminate an infinite loop by pressing Ctrl + C keys.</p>
+</div>
+</p>
+</body></html>
